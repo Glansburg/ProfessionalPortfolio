@@ -90,13 +90,15 @@ footer {
     top:20%;
   
   }
-.fix-text {
-
+.personal-links {
+  display: flex;
+  justify-content: space-around;
   font-size: 15px;
   margin: 10px; /* Add margin around the entire <h2> element */
   padding: 10px; /* Add padding inside the <h2> element */
 
 }
+
 
   .text-center {
     text-align: center;
