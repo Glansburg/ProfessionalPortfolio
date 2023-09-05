@@ -25,10 +25,17 @@ li {
   text-decoration: none;
 }
 
+a:hover {
+  border: 2px solid #3498db; /* Initial border */
+  border-radius: 5px; /* Add rounded corners */
+  transition: border 0.3s ease; /* Add a transition for animation */
+}
+
+
+
 a {
   font-weight: bolder;
   color: rgba(1, 2, 14, 0.813);
-  
 }
 
 header,
@@ -76,6 +83,10 @@ footer {
     background-color: rgba(0, 0, 255, 0.158); /* Optional background color for the box */
   }
   
+  .fix-position {
+    position: absolute;
+    top:20%;
+  }
 
   .text-center {
     text-align: center;
