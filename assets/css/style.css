@@ -8,8 +8,6 @@ body {
   position: relative;
   font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
-  background-color: #FDF8F5;
-  color: #4F4846;
 }
 
 h1,
@@ -18,7 +16,7 @@ h2 {
 }
 
 main {
-  padding: 60px 0;
+  padding: 50% 0;
 }
 
 li {
@@ -39,7 +37,7 @@ footer {
   width: 100%;
   line-height: 60px;
   background-color: rgba(0, 34, 255, 0.203);
-  opacity: .50;
+  opacity: 80%;
 }
 
 header {
@@ -52,21 +50,35 @@ footer {
   margin-top: 0;
   bottom: 0;
   border-bottom: 10px solid #4F4846;
-  color: #FDF8F5;    
+  color: #1e0c02;    
 }
 
 .text-right {
   text-align: right;
 }
-
+.top {
+  position:absolute;
+  top: 5%;
+  border-bottom: 10px dashed #100702;
+  opacity: 80%;
+  
+}
 .profile-body {
-    background-image: url(/assets/images/landscapeJoel.jpg);
+  background-image: url(/assets/images/landscapeJoel.jpg);
       background-repeat: no-repeat;
       background-position: 50% 0;
       background-size: 100%;
-      
-      
-      
-     
-
+      background-color: rgba(0, 34, 255, 0.203);
   }
+  .border-box {
+    border: 2px solid #000; /* Specify the border style, width, and color */
+    padding: 4px; /* Adjust padding for spacing between text and the border */
+    background-color: rgba(0, 0, 255, 0.158); /* Optional background color for the box */
+  }
+  
+
+  .text-center {
+    text-align: center;
+    margin-top: 0%;
+  }
+   
