@@ -82,9 +82,10 @@ footer {
   }
   
   .projects {
-    position:flex;
-    
-    width: 15%;
+    position:absolute;
+    top: 77%;
+    left:0;
+    right:0;
     border: 2px solid #000; 
     border-radius: 0;
   }
