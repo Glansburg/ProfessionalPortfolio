@@ -53,7 +53,7 @@ header {
 }
 
 footer {
-  height: 13%;
+  height: 10.5%;
   position: absolute;
   margin-top: 0;
   bottom: 0;
@@ -81,9 +81,9 @@ footer {
       background-color: rgba(0, 34, 255, 0.203);
   }
   .border-box {
-    border: 2px solid #000; /* Specify the border style, width, and color */
-    padding: 4px; /* Adjust padding for spacing between text and the border */
-    background-color: rgba(0, 0, 255, 0.158); /* Optional background color for the box */
+    border: 2px solid #000; /* the border style, width, and color */
+    padding: 4px; /* padding for spacing between text and the border */
+    background-color: rgba(0, 0, 255, 0.158); /* background color for the box */
   }
   
   .fix-position {
@@ -95,9 +95,6 @@ footer {
   display: flex;
   justify-content: space-around;
   font-size: 15px;
-  margin: 10px; /* Add margin around the entire <h2> element */
-  padding: 10px; /* Add padding inside the <h2> element */
-
 }
 
 
