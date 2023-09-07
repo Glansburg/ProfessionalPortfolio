@@ -3,7 +3,7 @@
   padding:0;  
 }
 
-/* Element Selectors */
+
 body {
   position: relative;
   font-family: "Goudy Bookletter 1911", sans-serif;
@@ -31,8 +31,6 @@ a:hover {
   transition: border 0.3s ease; /* Add a transition for animation */
 }
 
-
-
 a {
   font-weight: bolder;
   color: rgba(1, 2, 14, 0.813);
@@ -40,7 +38,6 @@ a {
 
 header,
 footer {
-  
   width: 100%;
   line-height: 60px;
   background-color: rgba(0, 34, 255, 0.203);
@@ -60,8 +57,6 @@ footer {
   border-bottom: 10px solid #4F4846;
   color: #1e0c02;    
 }
-
-
 
 .text-right {
   text-align: right;
@@ -85,6 +80,16 @@ footer {
     padding: 4px; /* padding for spacing between text and the border */
     background-color: rgba(0, 0, 255, 0.158); /* background color for the box */
   }
+  
+  .projects {
+    position:flex;
+    
+    width: 15%;
+    border: 2px solid #000; 
+    border-radius: 0;
+  }
+  
+
   
   .fix-position {
     position: absolute;
