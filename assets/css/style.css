@@ -90,7 +90,12 @@ footer {
     border-radius: 0;
   }
   
-
+.space-around {
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+}
+}
   
   .fix-position {
     position: absolute;
